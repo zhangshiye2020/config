@@ -53,3 +53,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 # pytorch
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
 ```
+
+## pytorch 安装
+
+***注意：*** pytorch安装时从官网复制过来的命令记得去掉-c torch，否则由于优先级问题还是会从官网下载
